@@ -5,6 +5,7 @@ socket.on('connect',function () {
 
 })
 
+
 socket.on('disconnect',function () {
   console.log('Disconnect from server');
 })
